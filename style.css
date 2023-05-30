@@ -1,0 +1,154 @@
+/* Estilização do header/cabeçalho da página */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Bungee', cursive;
+}
+
+header {
+    padding: 16px 0px;
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+header h1 {
+    font-weight: normal;
+    background-color: rgb(225, 74, 74);
+    border-radius: 20px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilização da seção "Sobre" */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+section {
+    padding: 24px 0px;
+    color: rgb(31, 51, 51);
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    color: #182c61;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+/* Estilização do formulário */
+
+.social-links img {
+    height: 24px;
+    margin-right: 8px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button,
+form textarea {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+form button {
+    border-radius: 20px;
+    background-color: #182c61;
+    color: #ecf0f1;
+    border-style: none;
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #374e90;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+    color: #182c61;
+    margin-bottom: 16px;
+}
+
+/* Estilização do rodapé/footer */
+
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0px;
+    text-align: center;
+}
